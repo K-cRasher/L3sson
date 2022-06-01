@@ -1,0 +1,76 @@
+{
+    background: url (https: //csgamer.ru/wp-content/uploads/2019/04/1644913246_preview_awp_lego_2_d-1536x864.jpg)
+    }
+
+    /*Прижатие футера*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+    }
+
+    .content {
+        flex: 1 0 auto;
+    }
+
+    .footer {
+        flex: 0 0 auto;
+    }
+
+    /*конец футера*/
+
+    /*фон*/
+    body {
+        background: url(https://onaircode.com/wp-content/uploads/2019/09/sepion-css-1024x553.jpg);
+        background-position: center;
+        background-size: cover;
+        font-family: 'Blaka', cursive;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    /*конец фона*/
+
+    /*Цвет текста*/
+    h1 {
+        text-align: center;
+        color: #87CEFA;
+    }
+
+    /*Конец цвета текста*/
+
+
+    .menu {
+        padding-left: 50px
+    }
+
+    .form input {
+        border: 3px solid #E6E6FA;
+        box-sizing: 10px;
+        border-radius: 6px;
+        opacity: 0.8;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    p {
+        font-family: sans-serif;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+    }
